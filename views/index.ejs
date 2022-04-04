@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1>Lab6</h1>
+
+<form action="/saveArray" method="post" enctype="multipart/form-data">
+  <input type="file" name="myFiles" multiple/>
+  <button type="submit">Save file</button>
+</form>
+
+<p><%= title %></p>
+
+</body>
+</html>
